@@ -17,13 +17,13 @@ toc_footers: []
 includes:
   - introduce
   - accounts
-  - bg-accounts
   - transfers
   - products
   - product
   - currencys
   - orders
   - ws
+  - ws-private
   - auth
 
 
