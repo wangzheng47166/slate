@@ -306,10 +306,10 @@
         </div>
       <ul id="toc" class="toc-list-h1">
           <li>
-            <a href="#bg-exchange-openapi-v1-0" class="toc-h1 toc-link" data-title="bg.exchange Openapi 接口说明 v1.0">bg.exchange Openapi 接口说明 v1.0</a>
+            <a href="#73d44fcf9b" class="toc-h1 toc-link" data-title="接口说明">接口说明</a>
           </li>
           <li>
-            <a href="#c3d92b20c8" class="toc-h1 toc-link" data-title="账户">账户</a>
+            <a href="#bd9157656f" class="toc-h1 toc-link" data-title="账户信息">账户信息</a>
               <ul class="toc-list-h2">
                   <li>
                     <a href="#3e8c80673e" class="toc-h2 toc-link" data-title="获取所有账户余额信息">获取所有账户余额信息</a>
@@ -320,7 +320,7 @@
               </ul>
           </li>
           <li>
-            <a href="#transfers" class="toc-h1 toc-link" data-title="Transfers">Transfers</a>
+            <a href="#1da62d08e5" class="toc-h1 toc-link" data-title="资金划转">资金划转</a>
               <ul class="toc-list-h2">
                   <li>
                     <a href="#0236c17159" class="toc-h2 toc-link" data-title="资金账户划转到交易账户">资金账户划转到交易账户</a>
@@ -331,7 +331,7 @@
               </ul>
           </li>
           <li>
-            <a href="#products" class="toc-h1 toc-link" data-title="Products">Products</a>
+            <a href="#c9ab653458" class="toc-h1 toc-link" data-title="产品及行情">产品及行情</a>
               <ul class="toc-list-h2">
                   <li>
                     <a href="#74712ccf52" class="toc-h2 toc-link" data-title="获取所有已知的交易产品">获取所有已知的交易产品</a>
@@ -360,7 +360,7 @@
               </ul>
           </li>
           <li>
-            <a href="#currencies" class="toc-h1 toc-link" data-title="Currencies">Currencies</a>
+            <a href="#b4258c5371" class="toc-h1 toc-link" data-title="币种信息">币种信息</a>
               <ul class="toc-list-h2">
                   <li>
                     <a href="#3d9160c97c" class="toc-h2 toc-link" data-title="获取所有已知货币">获取所有已知货币</a>
@@ -371,7 +371,7 @@
               </ul>
           </li>
           <li>
-            <a href="#orders" class="toc-h1 toc-link" data-title="Orders">Orders</a>
+            <a href="#114efe6c68" class="toc-h1 toc-link" data-title="交易和订单">交易和订单</a>
               <ul class="toc-list-h2">
                   <li>
                     <a href="#8be954be0d" class="toc-h2 toc-link" data-title="创建新订单">创建新订单</a>
@@ -394,7 +394,7 @@
               </ul>
           </li>
           <li>
-            <a href="#websocket-feed" class="toc-h1 toc-link" data-title="WEBSOCKET FEED">WEBSOCKET FEED</a>
+            <a href="#websocket-feed-public" class="toc-h1 toc-link" data-title="WEBSOCKET FEED PUBLIC">WEBSOCKET FEED PUBLIC</a>
               <ul class="toc-list-h2">
                   <li>
                     <a href="#candles-subscribe-unsubscribe" class="toc-h2 toc-link" data-title="Candles Subscribe/UnSubscribe">Candles Subscribe/UnSubscribe</a>
@@ -420,7 +420,7 @@
               </ul>
           </li>
           <li>
-            <a href="#websocket-feed-private-channel" class="toc-h1 toc-link" data-title="WEBSOCKET FEED PRIVATE CHANNEL">WEBSOCKET FEED PRIVATE CHANNEL</a>
+            <a href="#websocket-feed-private" class="toc-h1 toc-link" data-title="WEBSOCKET FEED PRIVATE">WEBSOCKET FEED PRIVATE</a>
               <ul class="toc-list-h2">
                   <li>
                     <a href="#login" class="toc-h2 toc-link" data-title="Login">Login</a>
@@ -445,6 +445,14 @@
           <li>
             <a href="#10fd7e4964" class="toc-h1 toc-link" data-title="鉴权信息">鉴权信息</a>
           </li>
+          <li>
+            <a href="#42f2f63a84" class="toc-h1 toc-link" data-title="数据字典">数据字典</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#8627d7970b" class="toc-h2 toc-link" data-title="下单错误码对照表">下单错误码对照表</a>
+                  </li>
+              </ul>
+          </li>
       </ul>
         <ul class="toc-footer">
         </ul>
@@ -452,16 +460,20 @@
     <div class="page-wrapper">
       <div class="dark-box"></div>
       <div class="content">
-        <h1 id='bg-exchange-openapi-v1-0'>bg.exchange Openapi 接口说明 v1.0</h1>
+        <h1 id='73d44fcf9b'>接口说明</h1>
 <blockquote>
 <p>Scroll down for code samples, example requests and responses. Select a language for code samples from the tabs above or the mobile navigation menu.</p>
 </blockquote>
 
-<p>接口文档</p>
+<p><strong>反馈邮箱</strong></p>
 
-<p>Email: <a href="mailto:api@bg.exchange">api@bg.exchange</a> </p>
-<h1 id='c3d92b20c8'>账户</h1><h2 id='3e8c80673e'>获取所有账户余额信息</h2>
-<p><font class="httpget">GET</font> <em>/accounts</em></p>
+<p>Email: <a href="mailto:api@bg.exchange">api@bg.exchange</a></p>
+
+<p><strong>请求地址</strong></p>
+
+<p>HOST: <code>https:api.bg.exchange/hk/{language}/</code></p>
+<h1 id='bd9157656f'>账户信息</h1><h2 id='3e8c80673e'>获取所有账户余额信息</h2>
+<p><font class="httpget">GET</font> <em>/v1/accounts</em></p>
 
 <p>获取用户所有的交易账户信息</p>
 
@@ -553,7 +565,7 @@ RESPONSE PARAMETERS
   </span><span class="p">}</span><span class="w">
 </span><span class="p">]</span><span class="w">
 </span></code></pre></div><h2 id='544a2cf999'>获取单个账户余额信息</h2>
-<p><font class="httpget">GET</font> <em>/accounts/{account_id}</em></p>
+<p><font class="httpget">GET</font> <em>/v1/accounts/{account_id}</em></p>
 
 <p>获取用户指定的交易账户信息</p>
 
@@ -664,8 +676,8 @@ RESPONSE PARAMETERS
   </span><span class="nl">"currency"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BTC"</span><span class="p">,</span><span class="w">
   </span><span class="nl">"hold"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1.0"</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div><h1 id='transfers'>Transfers</h1><h2 id='0236c17159'>资金账户划转到交易账户</h2>
-<p><font class="httppost">POST</font> <em>/deposits/account</em></p>
+</span></code></pre></div><h1 id='1da62d08e5'>资金划转</h1><h2 id='0236c17159'>资金账户划转到交易账户</h2>
+<p><font class="httppost">POST</font> <em>/v1/deposits/account</em></p>
 
 <p><strong>请求数据类型</strong>:<code>application/json</code></p>
 
@@ -770,7 +782,7 @@ RESPONSE PARAMETERS
   </span><span class="nl">"currency"</span><span class="p">:</span><span class="w"> </span><span class="s2">"HKD"</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div><h2 id='aaa6ddaff7'>交易账户划转到资金账户</h2>
-<p><font class="httppost">POST</font> <em>/withdrawals/account</em></p>
+<p><font class="httppost">POST</font> <em>/v1/withdrawals/account</em></p>
 
 <p><strong>请求数据类型</strong>:<code>application/json</code></p>
 
@@ -874,8 +886,8 @@ RESPONSE PARAMETERS
   </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
   </span><span class="nl">"currency"</span><span class="p">:</span><span class="w"> </span><span class="s2">"HKD"</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div><h1 id='products'>Products</h1><h2 id='74712ccf52'>获取所有已知的交易产品</h2>
-<p><font class="httpget">GET</font> <em>/products</em></p>
+</span></code></pre></div><h1 id='c9ab653458'>产品及行情</h1><h2 id='74712ccf52'>获取所有已知的交易产品</h2>
+<p><font class="httpget">GET</font> <em>/v1/products</em></p>
 
 <aside>
 RESPONSE STATUS
@@ -1010,7 +1022,7 @@ RESPONSE PARAMETERS
   </span><span class="p">}</span><span class="w">
 </span><span class="p">]</span><span class="w">
 </span></code></pre></div><h2 id='77e95d569c'>获取单个产品详情</h2>
-<p><font class="httpget">GET</font> <em>/products/{product_id}</em></p>
+<p><font class="httpget">GET</font> <em>/v1/products/{product_id}</em></p>
 
 <aside>
 RESPONSE STATUS
@@ -1921,7 +1933,7 @@ RESPONSE PARAMETERS
 
 <span class="p">}</span>
 </code></pre></div>
-<p><font class="httpget">GET</font> <em>/products/{product}/trade</em></p>
+<p><font class="httpget">GET</font> <em>/public/v1/products/{product}/trade</em></p>
 
 <p>Gets a list the latest trades for a product.</p>
 <h5 id='749d765242-3'>参数</h5>
@@ -2136,8 +2148,8 @@ RESPONSE PARAMETERS
 <td>成交量</td>
 </tr>
 </tbody></table>
-<h1 id='currencies'>Currencies</h1><h2 id='3d9160c97c'>获取所有已知货币</h2>
-<p><font class="httpget">GET</font> <em>/currencies</em></p>
+<h1 id='b4258c5371'>币种信息</h1><h2 id='3d9160c97c'>获取所有已知货币</h2>
+<p><font class="httpget">GET</font> <em>/v1/currencies</em></p>
 
 <aside>
 RESPONSE STATUS
@@ -2211,7 +2223,7 @@ RESPONSE PARAMETERS
   </span><span class="p">}</span><span class="w">
 </span><span class="p">]</span><span class="w">
 </span></code></pre></div><h2 id='17ec47fd86'>获取单个币种信息</h2>
-<p><font class="httpget">GET</font> <em>/currencies/{currency_id}</em></p>
+<p><font class="httpget">GET</font> <em>/v1/currencies/{currency_id}</em></p>
 
 <aside>
 RESPONSE STATUS
@@ -2282,8 +2294,8 @@ RESPONSE PARAMETERS
     </span><span class="p">}</span><span class="w">
   </span><span class="p">]</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div><h1 id='orders'>Orders</h1><h2 id='8be954be0d'>创建新订单</h2>
-<p><font class="httppost">POST</font> <em>/orders</em></p>
+</span></code></pre></div><h1 id='114efe6c68'>交易和订单</h1><h2 id='8be954be0d'>创建新订单</h2>
+<p><font class="httppost">POST</font> <em>/v1/orders</em></p>
 
 <aside>
 REQUEST PARAMETERS
@@ -2452,13 +2464,24 @@ RESPONSE PARAMETERS
 <blockquote>
 <p><a name="ResonpseExample">RESONPSE EXAMPLE</a></p>
 </blockquote>
-<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"128527387912385665"</span><span class="w">
-</span><span class="p">}</span><span class="w">
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"price"</span><span class="p">:</span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"size"</span><span class="p">:</span><span class="s2">"1.000000000000000000"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"product_id"</span><span class="p">:</span><span class="s2">"BTC_USD"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"order_id"</span><span class="p">:</span><span class="s2">"129149436110880967"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"funds"</span><span class="p">:</span><span class="s2">"0.000000000000000000"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"limit"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"side"</span><span class="p">:</span><span class="s2">"buy"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"filled_size"</span><span class="p">:</span><span class="s2">"0.000000000000000000"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"filled_fees"</span><span class="p">:</span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"status"</span><span class="p">:</span><span class="kc">null</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
 </span></code></pre></div><h2 id='327ddc77cb'>查询单个订单</h2>
 <p><a name="order_detail"></a></p>
 
-<p><font class="httpget">GET</font> <em>/orders/{order_id}</em></p>
+<p><font class="httpget">GET</font> <em>/v1/orders/{order_id}</em></p>
 
 <aside>
 PATH VARIABLES
@@ -2615,7 +2638,7 @@ RESPONSE EXAMPLE
   </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"limit"</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div><h2 id='bd4ed5fbee'>获取交易明细</h2>
-<p><font class="httpget">GET</font> <em>/fills</em></p>
+<p><font class="httpget">GET</font> <em>/v1/fills</em></p>
 
 <aside>
 REQUEST PARAMETERS
@@ -2789,7 +2812,7 @@ RESPONSE EXAMPLE
   </span><span class="p">}</span><span class="w">
 </span><span class="p">]</span><span class="w">
 </span></code></pre></div><h2 id='9f3df0a460'>获取当前的未完结订单</h2>
-<p><font class="httpget">GET</font> <em>/orders</em></p>
+<p><font class="httpget">GET</font> <em>/v1/orders</em></p>
 
 <aside>
 REQUEST PARAMETERS
@@ -2987,7 +3010,7 @@ RESPONSE EXAMPLE
   </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"limit"</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div><h2 id='7742416be6'>撤销单个订单</h2>
-<p><font class="httpdelete">DELETE</font> <em>/orders/{order_id}</em></p>
+<p><font class="httpdelete">DELETE</font> <em>/v1/orders/{order_id}</em></p>
 
 <aside>
 REQUEST PARAMETERS
@@ -3185,7 +3208,7 @@ RESPONSE EXAMPLE
   </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"limit"</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div><h2 id='b63b779508'>取消所有订单</h2>
-<p><font class="httpdelete">DELETE</font> <em>/orders</em></p>
+<p><font class="httpdelete">DELETE</font> <em>/v1/orders</em></p>
 
 <p>此方法为异步方法，当用户收到接口返回时，并不代表所有订单已经取消成功。BGE收到请求之后，会查询用户账户下对应商品ID的所有未成交订单，并对这些订单异步进行取消操作。
 用户可以通过<a href="#order_detail">/orders/{order_id}</a> 查询单个订单的成交状态。</p>
@@ -3250,7 +3273,7 @@ RESPONSE PARAMETERS
 <div class="highlight"><pre class="highlight json tab-json"><code><span class="p">[</span><span class="w">
   </span><span class="s2">"128527387912385665"</span><span class="w">
 </span><span class="p">]</span><span class="w">
-</span></code></pre></div><h1 id='websocket-feed'>WEBSOCKET FEED</h1>
+</span></code></pre></div><h1 id='websocket-feed-public'>WEBSOCKET FEED PUBLIC</h1>
 <ul>
 <li><code>{host}/ws</code></li>
 </ul>
@@ -4530,7 +4553,7 @@ RESPONSE PARAMETERS
     </span><span class="nl">"ts"</span><span class="p">:</span><span class="w"> </span><span class="mi">1640251563497</span><span class="p">,</span><span class="w">
     </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ticker"</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div><h1 id='websocket-feed-private-channel'>WEBSOCKET FEED PRIVATE CHANNEL</h1>
+</span></code></pre></div><h1 id='websocket-feed-private'>WEBSOCKET FEED PRIVATE</h1>
 <ul>
 <li><code>wss://{host}/</code></li>
 </ul>
@@ -5003,6 +5026,12 @@ RESPONSE PARAMETERS
 <h1 id='10fd7e4964'>鉴权信息</h1>
 <p><a id="auth"></a></p>
 
+<p>每个用户最多可以创建50个APIKey；</p>
+
+<p>请勿将您的APIKey透露给任何人，以免造成资产损失。建议为APIKey绑定IP地址，以提高您账户的安全性，多个IP地址用英文分割,最多支持10个IP地址,未绑定IP地址的API有效期只有180天；</p>
+
+<p>请注意，将APIKey绑定在第三方平台，可能有安全隐患，请您谨慎操作；</p>
+
 <p>访问私有信息接口，需要在加入如下请求头</p>
 
 <table><thead>
@@ -5013,23 +5042,360 @@ RESPONSE PARAMETERS
 </thead><tbody>
 <tr>
 <td>ACCESS-KEY</td>
-<td>Bad Request -- Your request is invalid.</td>
+<td>用户在BGE平台创建的API KEY</td>
 </tr>
 <tr>
 <td>ACCESS-SIGN</td>
-<td>Unauthorized -- Your API key is wrong.</td>
+<td>根据用户创建的API KEY 对请求所作出的签名信息，以验证请求的合法性 <a href="#access-sign-gen">ACCESS-SING生成算法</a></td>
 </tr>
 <tr>
 <td>ACCESS-TIMESTAMP</td>
-<td>Forbidden -- The kitten requested is hidden for administrators only.</td>
+<td>请求时间，一般为当前的毫秒数时间戳</td>
 </tr>
 </tbody></table>
 
-<p>每个用户最多可以创建50个APIKey；</p>
+<p><a name="access-sign-gen">ACCESS-SING生成算法</a></p>
 
-<p>请勿将您的APIKey透露给任何人，以免造成资产损失。建议为APIKey绑定IP地址，以提高您账户的安全性，多个IP地址用英文分割,最多支持10个IP地址,未绑定IP地址的API有效期只有180天；</p>
+<aside> 
+使用OpenAPiUtils.createSign 生成 sign 
+</aside>
 
-<p>请注意，将APIKey绑定在第三方平台，可能有安全隐患，请您谨慎操作；</p>
+<p><code>requestPath</code>: 与文档中给出的路径相一致</p>
+
+<p><code>params</code>: 当请求为 <fout class="httpget>GET</font> 或者 <fout class="httpdelete>DELETE</font> 或者为WEBSOCKETchannel 进行认证时，填 &quot;&quot;</p>
+
+<table><thead>
+<tr>
+<th>参数名</th>
+<th>参数类型</th>
+<th>说明</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>method</td>
+<td>string</td>
+<td>GET or POST or DELETE</td>
+</tr>
+<tr>
+<td>secretKey</td>
+<td>string</td>
+<td>用户在BGE创建的API KEY名称</td>
+</tr>
+<tr>
+<td>requestPath</td>
+<td>string</td>
+<td>请求路径</td>
+</tr>
+<tr>
+<td>params</td>
+<td>string</td>
+<td>传输数据内容</td>
+</tr>
+<tr>
+<td>timestamp</td>
+<td>string</td>
+<td>当前的毫秒数时间戳</td>
+</tr>
+</tbody></table>
+
+<blockquote>
+<p>计算sign </p>
+</blockquote>
+<div class="highlight"><pre class="highlight java tab-java"><code>  <span class="nc">String</span> <span class="n">timestamp</span><span class="o">=</span><span class="nc">OpenAPiUtils</span><span class="o">.</span><span class="na">createTimestamp</span><span class="o">();</span>
+  <span class="nc">String</span> <span class="n">sign</span><span class="o">=</span><span class="nc">OpenAPiUtils</span><span class="o">.</span><span class="na">createSign</span><span class="o">(</span><span class="nc">OpenAPiUtils</span><span class="o">.</span><span class="na">POST</span><span class="o">,</span>
+  <span class="s">"HKBGE-97759b085d7cabd66fea599aeece95f9"</span><span class="o">,</span>
+  <span class="s">"/openapi/exchange/BTC_USDT/orders"</span><span class="o">,</span>
+  <span class="n">s</span><span class="o">,</span><span class="n">timestamp</span><span class="o">);</span>
+</code></pre></div>
+<blockquote>
+<p>sign 生成算法工具类</p>
+</blockquote>
+<div class="highlight"><pre class="highlight java tab-java"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">OpenAPiUtils</span> <span class="o">{</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kd">final</span> <span class="nc">String</span> <span class="no">GET</span> <span class="o">=</span> <span class="s">"GET"</span><span class="o">;</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kd">final</span> <span class="nc">String</span> <span class="no">POST</span> <span class="o">=</span> <span class="s">"POST"</span><span class="o">;</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kd">final</span> <span class="nc">String</span> <span class="no">DELETE</span> <span class="o">=</span> <span class="s">"DELETE"</span><span class="o">;</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kd">final</span> <span class="nc">Gson</span> <span class="n">gson</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Gson</span><span class="o">();</span>
+
+  <span class="kd">public</span> <span class="kd">static</span> <span class="nc">String</span> <span class="nf">createTimestamp</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="nc">Instant</span><span class="o">.</span><span class="na">now</span><span class="o">().</span><span class="na">toString</span><span class="o">();</span>
+  <span class="o">}</span>
+
+  <span class="cm">/**
+   * 获取当前时间戳 例：2022-01-08T07:19:56.339Z
+   * @return
+   */</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="nc">String</span> <span class="nf">createTimestamp</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="nc">Instant</span><span class="o">.</span><span class="na">now</span><span class="o">().</span><span class="na">toString</span><span class="o">();</span>
+  <span class="o">}</span>
+
+  <span class="cm">/**
+   * 计算签名
+   * @param method POST or GET or DELETE
+   * @param secretKey 例：HKBGE-xxxxx
+   * @param requestPath 例：/v1/orders
+   * @param queryString 请求参数
+   * @param body string GET时为空
+   * @param timestamp 当前时间戳 例：2022-01-08T07:19:56.339Z
+   * @return string
+   */</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="nc">String</span> <span class="nf">createSign</span><span class="o">(</span><span class="nc">String</span> <span class="n">method</span><span class="o">,</span> <span class="nc">String</span> <span class="n">secretKey</span><span class="o">,</span> <span class="nc">String</span> <span class="n">requestPath</span><span class="o">,</span> <span class="nc">String</span> <span class="n">queryString</span><span class="o">,</span> <span class="nc">String</span> <span class="n">body</span><span class="o">,</span> <span class="nc">String</span> <span class="n">timestamp</span><span class="o">)</span> <span class="o">{</span>
+    <span class="nc">String</span> <span class="n">sign</span> <span class="o">=</span> <span class="s">""</span><span class="o">;</span>
+    <span class="n">method</span> <span class="o">=</span> <span class="n">method</span><span class="o">.</span><span class="na">toUpperCase</span><span class="o">();</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">timestamp</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+      <span class="n">timestamp</span> <span class="o">=</span> <span class="nc">Instant</span><span class="o">.</span><span class="na">now</span><span class="o">().</span><span class="na">toString</span><span class="o">();</span>
+    <span class="o">}</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">method</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="s">"POST"</span><span class="o">))</span> <span class="o">{</span>
+      <span class="n">sign</span> <span class="o">=</span> <span class="n">generate</span><span class="o">(</span><span class="n">timestamp</span><span class="o">,</span> <span class="n">method</span><span class="o">,</span> <span class="n">requestPath</span><span class="o">,</span> <span class="n">queryString</span><span class="o">,</span> <span class="n">body</span><span class="o">,</span> <span class="n">secretKey</span><span class="o">,</span> <span class="s">"HmacSHA256"</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">method</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="s">"GET"</span><span class="o">)</span> <span class="o">||</span> <span class="n">method</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="s">"DELETE"</span><span class="o">))</span> <span class="o">{</span>
+      <span class="n">sign</span> <span class="o">=</span> <span class="n">generate</span><span class="o">(</span><span class="n">timestamp</span><span class="o">,</span> <span class="n">method</span><span class="o">,</span> <span class="n">requestPath</span><span class="o">,</span> <span class="n">queryString</span><span class="o">,</span> <span class="s">""</span><span class="o">,</span> <span class="n">secretKey</span><span class="o">,</span> <span class="s">"HmacSHA256"</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="k">return</span> <span class="n">sign</span><span class="o">;</span>
+  <span class="o">}</span>
+
+  <span class="kd">public</span> <span class="kd">static</span> <span class="nc">String</span> <span class="nf">generate</span><span class="o">(</span><span class="kd">final</span> <span class="nc">String</span> <span class="n">timestamp</span><span class="o">,</span> <span class="nc">String</span> <span class="n">method</span><span class="o">,</span> <span class="kd">final</span> <span class="nc">String</span> <span class="n">requestPath</span><span class="o">,</span>
+                                <span class="nc">String</span> <span class="n">queryString</span><span class="o">,</span> <span class="nc">String</span> <span class="n">body</span><span class="o">,</span> <span class="kd">final</span> <span class="nc">String</span> <span class="n">secret</span><span class="o">,</span> <span class="kd">final</span> <span class="nc">String</span> <span class="n">alg</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="nc">StringUtils</span><span class="o">.</span><span class="na">defaultIfBlank</span><span class="o">(</span><span class="n">body</span><span class="o">,</span> <span class="nc">StringUtils</span><span class="o">.</span><span class="na">EMPTY</span><span class="o">);</span>
+    <span class="n">queryString</span> <span class="o">=</span> <span class="nc">StringUtils</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">(</span><span class="n">queryString</span><span class="o">)</span> <span class="o">?</span> <span class="s">""</span> <span class="o">:</span> <span class="s">"?"</span> <span class="o">+</span> <span class="n">queryString</span><span class="o">;</span>
+    <span class="kd">final</span> <span class="nc">String</span> <span class="n">preHash</span> <span class="o">=</span> <span class="n">timestamp</span> <span class="o">+</span> <span class="n">method</span> <span class="o">+</span> <span class="n">requestPath</span> <span class="o">+</span> <span class="n">queryString</span> <span class="o">+</span> <span class="n">body</span><span class="o">;</span>
+    <span class="k">return</span> <span class="nf">encodeBase64</span><span class="o">(</span><span class="n">alg</span><span class="o">,</span> <span class="n">secret</span><span class="o">,</span> <span class="n">preHash</span><span class="o">);</span>
+  <span class="o">}</span>
+
+  <span class="kd">public</span> <span class="kd">static</span> <span class="nc">String</span> <span class="nf">encodeBase64</span><span class="o">(</span><span class="kd">final</span> <span class="nc">String</span> <span class="n">alg</span><span class="o">,</span> <span class="kd">final</span> <span class="nc">String</span> <span class="n">secret</span><span class="o">,</span> <span class="kd">final</span> <span class="nc">String</span> <span class="n">data</span><span class="o">)</span> <span class="o">{</span>
+    <span class="nc">Validate</span><span class="o">.</span><span class="na">notNull</span><span class="o">(</span><span class="n">alg</span><span class="o">,</span> <span class="s">"SignatureAlgorithm cannot be null."</span><span class="o">);</span>
+    <span class="nc">Validate</span><span class="o">.</span><span class="na">notNull</span><span class="o">(</span><span class="n">data</span><span class="o">,</span> <span class="s">"Signing Secret cannot be null."</span><span class="o">);</span>
+    <span class="k">switch</span> <span class="o">(</span><span class="n">alg</span><span class="o">)</span> <span class="o">{</span>
+      <span class="k">case</span> <span class="s">"HmacMD5"</span><span class="o">:</span>
+        <span class="k">return</span> <span class="nc">Base64</span><span class="o">.</span><span class="na">encodeBase64String</span><span class="o">(</span><span class="k">new</span> <span class="nc">HmacUtils</span><span class="o">(</span><span class="s">"HmacMD5"</span><span class="o">,</span> <span class="n">secret</span><span class="o">).</span><span class="na">hmac</span><span class="o">(</span><span class="n">data</span><span class="o">));</span>
+      <span class="k">case</span> <span class="s">"HmacSHA1"</span><span class="o">:</span>
+        <span class="k">return</span> <span class="nc">Base64</span><span class="o">.</span><span class="na">encodeBase64String</span><span class="o">(</span><span class="k">new</span> <span class="nc">HmacUtils</span><span class="o">(</span><span class="s">"HmacSHA1"</span><span class="o">,</span> <span class="n">secret</span><span class="o">).</span><span class="na">hmac</span><span class="o">(</span><span class="n">data</span><span class="o">));</span>
+      <span class="k">case</span> <span class="s">"HmacSHA224"</span><span class="o">:</span>
+        <span class="k">return</span> <span class="nc">Base64</span><span class="o">.</span><span class="na">encodeBase64String</span><span class="o">(</span><span class="k">new</span> <span class="nc">HmacUtils</span><span class="o">(</span><span class="s">"HmacSHA224"</span><span class="o">,</span> <span class="n">secret</span><span class="o">).</span><span class="na">hmac</span><span class="o">(</span><span class="n">data</span><span class="o">));</span>
+      <span class="k">case</span> <span class="s">"HmacSHA256"</span><span class="o">:</span>
+        <span class="k">try</span> <span class="o">{</span>
+          <span class="k">return</span> <span class="nc">Base64</span><span class="o">.</span><span class="na">encodeBase64String</span><span class="o">(</span><span class="k">new</span> <span class="nc">HmacUtils</span><span class="o">(</span><span class="s">"HmacSHA256"</span><span class="o">,</span>
+            <span class="n">secret</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="s">"UTF-8"</span><span class="o">)).</span><span class="na">hmac</span><span class="o">(</span><span class="n">data</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="s">"UTF-8"</span><span class="o">)));</span>
+        <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="nc">UnsupportedEncodingException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+          <span class="k">throw</span> <span class="k">new</span> <span class="nf">RuntimeException</span><span class="o">(</span><span class="n">e</span><span class="o">.</span><span class="na">getMessage</span><span class="o">());</span>
+        <span class="o">}</span>
+      <span class="k">case</span> <span class="s">"HmacSHA384"</span><span class="o">:</span>
+        <span class="k">return</span> <span class="nc">Base64</span><span class="o">.</span><span class="na">encodeBase64String</span><span class="o">(</span><span class="k">new</span> <span class="nc">HmacUtils</span><span class="o">(</span><span class="s">"HmacSHA384"</span><span class="o">,</span> <span class="n">secret</span><span class="o">).</span><span class="na">hmac</span><span class="o">(</span><span class="n">data</span><span class="o">));</span>
+      <span class="k">case</span> <span class="s">"HmacSHA512"</span><span class="o">:</span>
+        <span class="k">return</span> <span class="nc">Base64</span><span class="o">.</span><span class="na">encodeBase64String</span><span class="o">(</span><span class="k">new</span> <span class="nc">HmacUtils</span><span class="o">(</span><span class="s">"HmacSHA512"</span><span class="o">,</span> <span class="n">secret</span><span class="o">).</span><span class="na">hmac</span><span class="o">(</span><span class="n">data</span><span class="o">));</span>
+      <span class="k">default</span><span class="o">:</span>
+        <span class="k">throw</span> <span class="k">new</span> <span class="nf">IllegalArgumentException</span><span class="o">(</span><span class="s">"The '"</span> <span class="o">+</span> <span class="n">alg</span><span class="o">.</span><span class="na">name</span><span class="o">()</span> <span class="o">+</span> <span class="s">"' algorithm cannot be used for signing."</span><span class="o">);</span>
+    <span class="o">}</span>
+  <span class="o">}</span>
+
+<span class="o">}</span>
+</code></pre></div>
+<aside> 
+请求时填充HTTP HEADERS
+</aside>
+
+<p>将用户在BGE生成的api key 与 sign 与 时间戳加入到 http请求头中。</p>
+
+<blockquote>
+<p>填充HTTP HEADERS</p>
+</blockquote>
+<div class="highlight"><pre class="highlight java tab-java"><code><span class="nc">RequestBuilders</span><span class="o">.</span><span class="na">post</span><span class="o">(</span><span class="s">"/openapi/exchange/BTC_USDT/orders"</span><span class="o">)</span>
+                        <span class="o">.</span><span class="na">header</span><span class="o">(</span><span class="s">"ACCESS-KEY"</span><span class="o">,</span> <span class="s">"HKBGE-6fc437d24902cce8635806b6d79921f2"</span><span class="o">)</span>
+                        <span class="o">.</span><span class="na">header</span><span class="o">(</span><span class="s">"ACCESS-SIGN"</span><span class="o">,</span> <span class="n">sign</span><span class="o">)</span>
+                        <span class="o">.</span><span class="na">header</span><span class="o">(</span><span class="s">"ACCESS-TIMESTAMP"</span><span class="o">,</span> <span class="n">timestamp</span><span class="o">)</span>
+                        <span class="o">.</span><span class="na">characterEncoding</span><span class="o">(</span><span class="s">"UTF-8"</span><span class="o">)</span>
+                        <span class="o">.</span><span class="na">content</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="nc">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">))</span>
+                        <span class="o">.</span><span class="na">contentType</span><span class="o">(</span><span class="nc">MediaType</span><span class="o">.</span><span class="na">APPLICATION_JSON_VALUE</span><span class="o">)</span>
+</code></pre></div><h1 id='42f2f63a84'>数据字典</h1><h2 id='8627d7970b'>下单错误码对照表</h2>
+<p><code>amount limit value</code> 为产品所配置的交易金额/数量上下限，BGE 为保护市场稳定，根据市场实时行情限定了交易限制，具体数额会随市场交易情况实时波动。</p>
+
+<table><thead>
+<tr>
+<th>错误码</th>
+<th>示意</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>999</td>
+<td>查询的数据为空</td>
+</tr>
+<tr>
+<td>1000</td>
+<td>没有登录</td>
+</tr>
+<tr>
+<td>1001</td>
+<td>参数错误</td>
+</tr>
+<tr>
+<td>1006</td>
+<td>币种信息不存在</td>
+</tr>
+<tr>
+<td>1008</td>
+<td>K线不存在</td>
+</tr>
+<tr>
+<td>1009</td>
+<td>行情不存在</td>
+</tr>
+<tr>
+<td>1050</td>
+<td>币对不存在</td>
+</tr>
+<tr>
+<td>1051</td>
+<td>档位深度不存在</td>
+</tr>
+<tr>
+<td>1053</td>
+<td>下单已阻断</td>
+</tr>
+<tr>
+<td>1054</td>
+<td>小于最小下单数量</td>
+</tr>
+<tr>
+<td>1055</td>
+<td>金额小于余额</td>
+</tr>
+<tr>
+<td>1056</td>
+<td>大于最大下单数量</td>
+</tr>
+<tr>
+<td>1057</td>
+<td>市价单金额无效</td>
+</tr>
+<tr>
+<td>1058</td>
+<td>下单失败</td>
+</tr>
+<tr>
+<td>1059</td>
+<td>订单不存在</td>
+</tr>
+<tr>
+<td>1060</td>
+<td>撤单失败</td>
+</tr>
+<tr>
+<td>1061</td>
+<td>订单已撤销</td>
+</tr>
+<tr>
+<td>1062</td>
+<td>订单已成交</td>
+</tr>
+<tr>
+<td>1063</td>
+<td>撤单失败</td>
+</tr>
+<tr>
+<td>1099</td>
+<td>币种不存在</td>
+</tr>
+<tr>
+<td>1029</td>
+<td>转出金额大于可转金额</td>
+</tr>
+<tr>
+<td>1049</td>
+<td>用户请求接口过于频繁</td>
+</tr>
+<tr>
+<td>1100</td>
+<td>可用余额不足</td>
+</tr>
+<tr>
+<td>1064</td>
+<td>KYC验证失败</td>
+</tr>
+<tr>
+<td>1065</td>
+<td>您已被冻结，无法下单</td>
+</tr>
+<tr>
+<td>1066</td>
+<td>交易密码失效</td>
+</tr>
+<tr>
+<td>1067</td>
+<td>價格,Price ≥ ${amount limit value}</td>
+</tr>
+<tr>
+<td>1068</td>
+<td>價格,Price ≤ ${amount limit value}</td>
+</tr>
+<tr>
+<td>1069</td>
+<td>交易额精度不正确</td>
+</tr>
+<tr>
+<td>1070</td>
+<td>数量精度不正确</td>
+</tr>
+<tr>
+<td>1071</td>
+<td>价格精度不正确</td>
+</tr>
+<tr>
+<td>1072</td>
+<td>下单数量不能为0</td>
+</tr>
+<tr>
+<td>1073</td>
+<td>下单价格不能为0</td>
+</tr>
+<tr>
+<td>1074</td>
+<td>账户余额不足</td>
+</tr>
+<tr>
+<td>1075</td>
+<td>數量,Amount ≥ ${amount limit value}</td>
+</tr>
+<tr>
+<td>1076</td>
+<td>數量,Amount ≤ ${amount limit value}</td>
+</tr>
+<tr>
+<td>1077</td>
+<td>金額,Total ≥ ${amount limit value}</td>
+</tr>
+<tr>
+<td>1078</td>
+<td>數量,Amount ≥ ${amount limit value}</td>
+</tr>
+<tr>
+<td>1079</td>
+<td>金額,Total ≤ ${amount limit value}</td>
+</tr>
+<tr>
+<td>1080</td>
+<td>數量,Amount ≤ ${amount limit value}</td>
+</tr>
+<tr>
+<td>1081</td>
+<td>市价单买单触及最高成交限定价格，已自动撤单</td>
+</tr>
+<tr>
+<td>1082</td>
+<td>市价单卖单触及最低成交限定价格，已自动撤单</td>
+</tr>
+<tr>
+<td>1083</td>
+<td>用户数据获取失败</td>
+</tr>
+<tr>
+<td>1084</td>
+<td>无当前委托订单</td>
+</tr>
+<tr>
+<td>1085</td>
+<td>超过最大委托数</td>
+</tr>
+</tbody></table>
 
       </div>
       <div class="dark-box">
